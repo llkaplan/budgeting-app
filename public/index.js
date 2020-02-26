@@ -21,6 +21,7 @@ if ('serviceWorker' in navigator) {
       populateTable();
       populateChart();
     });
+
   
   function populateTotal() {
     let total = transactions.reduce((total, t) => {
